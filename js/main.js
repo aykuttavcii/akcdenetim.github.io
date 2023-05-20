@@ -11,6 +11,15 @@ for (var i = 0; i < dropdownLinks.length; i++) {
   });
 }
 
+  // Alt menüyü tekrar tıklanarak kapatma işlemi
+  var submenuCollapse = document.getElementById("submenuCollapse");
+  var dropdownToggle = document.querySelector(".dropdown-toggle");
+
+  dropdownToggle.addEventListener("click", function (event) {
+    event.preventDefault(); // Linkin varsayılan tıklama davranışını engelle
+    submenuCollapse.classList.toggle("show"); // "show" sınıfını ekleyip çıkararak alt menünün görünürlüğünü değiştir
+  });
+
 (function ($) {
     "use strict";
 

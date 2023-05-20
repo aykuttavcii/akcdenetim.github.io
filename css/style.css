@@ -295,9 +295,7 @@ h6,
     line-height: 40px;
     padding: 1cm;
 }
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
+
 
 .container {
   position: relative;
@@ -328,4 +326,8 @@ h6,
   width:100%
 }
 
-
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}

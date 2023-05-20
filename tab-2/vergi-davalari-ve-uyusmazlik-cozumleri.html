@@ -33,29 +33,39 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+       <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
         <a href="../index.html" class="navbar-brand ms-lg-5">
 			<img class="img-fluid rounded" style="max-width: 250px;height: 1cm;" src="../img/sirketlogoakc_transparent.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto py-0">
-                <div class="nav-item dropdown">
-				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-1/DenetimVeGuvence.html">Denetim ve Güvence</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="../tab-1/bagimsiz-denetim-hizmetleri.html" class="dropdown-item">Bağımsız Denetim Hizmetleri</a>
-                        <a href="../tab-1/ic-denetim.html" class="dropdown-item">İç Denetim</a>
-                        <a href="../tab-1/hile-suistimal-denetimi.html" class="dropdown-item">Hile (Suistimal) Denetimi</a>
-                        <a href="../tab-1/finansal-due-diligence.html" class="dropdown-item">Finansal "Due Diligence"</a>
-                        <a href="../tab-1/ciro-denetimi.html" class="dropdown-item">Ciro Denetimi</a>
-						<a href="../tab-1/finansal-check-up.html" class="dropdown-item">Finansal Check-Up</a>
-                    </div>
-                </div>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+  <div class="navbar-nav mx-auto py-0">
+    <div class="nav-item dropdown">
+	<div class="d-flex justify-content-between">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-1/DenetimVeGuvence.html">Denetim ve Güvence</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#submenuCollapse" aria-controls="submenuCollapse" aria-expanded="false" aria-label="Toggle submenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</div>
+      <div class="dropdown-menu m-0" id="submenuCollapse">
+        <a href="../tab-1/bagimsiz-denetim-hizmetleri.html" class="dropdown-item">Bağımsız Denetim Hizmetleri</a>
+        <a href="../tab-1/ic-denetim.html" class="dropdown-item">İç Denetim</a>
+        <a href="../tab-1/hile-suistimal-denetimi.html" class="dropdown-item">Hile (Suistimal) Denetimi</a>
+        <a href="../tab-1/finansal-due-diligence.html" class="dropdown-item">Finansal "Due Diligence"</a>
+        <a href="../tab-1/ciro-denetimi.html" class="dropdown-item">Ciro Denetimi</a>
+        <a href="../tab-1/finansal-check-up.html" class="dropdown-item">Finansal Check-Up</a>
+      </div>
+    </div>
 				<div class="nav-item dropdown">
-					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-2/VergiDanismanligi.html">Vergi Danışmanlığı</a>
-                    <div class="dropdown-menu m-0">
+					<div class="d-flex justify-content-between">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-2/VergiDanismanligi.html">Vergi Danışmanlığı</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#submenuCollapse1" aria-controls="submenuCollapse1" aria-expanded="false" aria-label="Toggle submenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</div>
+                    <div class="dropdown-menu m-0" id="submenuCollapse1">
                         <a href="../tab-2/TamTasdikDenetimi.html" class="dropdown-item">Tam Tasdik Denetimi</a>
                         <a href="../tab-2/kdv-iade-hizmeti.html" class="dropdown-item">KDV İade Hizmeti</a>
                         <a href="../tab-2/teknopark-ve-ar-ge-merkezi-vergi-danismanligi.html" class="dropdown-item">Teknopark ve Ar-Ge Merkezi Vergi Danışmanlığı</a>
@@ -66,8 +76,14 @@
                     </div>
                 </div>
 				<div class="nav-item dropdown">
-				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-3/KurumsalFinansman.html">Kurumsal Finansman</a>
-                    <div class="dropdown-menu m-0">
+							<div class="d-flex justify-content-between">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-3/KurumsalFinansman.html">Kurumsal Finansman</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#submenuCollapse2" aria-controls="submenuCollapse2" aria-expanded="false" aria-label="Toggle submenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</div>
+				
+                    <div class="dropdown-menu m-0"  id="submenuCollapse2">
                         <a href="../tab-3/sirket-birlesmeleri.html" class="dropdown-item">Şirket Birleşmeleri</a>
                         <a href="../tab-3/interim-cfo.html" class="dropdown-item">Interim CFO</a>
                         <a href="../tab-3/degerleme.html" class="dropdown-item">Değerleme</a>
@@ -75,19 +91,29 @@
                     </div>
                 </div>
 				<div class="nav-item dropdown">
-					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-4/YonetimDanismanligi.html">Yönetim Danışmanlığı</a>
-                    <div class="dropdown-menu m-0">
+									<div class="d-flex justify-content-between">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-4/YonetimDanismanligi.html">Yönetim Danışmanlığı</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#submenuCollapse3" aria-controls="submenuCollapse3" aria-expanded="false" aria-label="Toggle submenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</div>
+                    <div class="dropdown-menu m-0"  id="submenuCollapse3">
                         <a href="../tab-4/tesvik-danismanligi.html" class="dropdown-item">Teşvik Danışmanlığı</a>
                         <a href="../tab-4/startup-danismanligi.html" class="dropdown-item">Start-Up Danışmanlığı</a>
-                        <a href="../tab-4/yonetim-danismanligi.html" class="dropdown-item">Yönetim Danışmanlığı</a>
+                        <a href="../tab-4/YonetimDanismanligi.html" class="dropdown-item">Yönetim Danışmanlığı</a>
                         <a href="../tab-4/e-ticaret-danismanligi.html" class="dropdown-item">E-Ticaret Danışmanlığı</a>
 						<a href="../tab-4/satis-pazarlama-danismanligi.html" class="dropdown-item">Satış & Pazarlama Danışmanlığı</a>
 						<a href="../tab-4/uluslararasi-danismanlik.html" class="dropdown-item">Uluslararası Danışmanlık</a>
                     </div>
                 </div>
 				<div class="nav-item dropdown">
-				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-5/kurumsal-hizmetler.html">Kurumsal Hizmetler</a>
-                    <div class="dropdown-menu m-0">
+								<div class="d-flex justify-content-between">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-5/kurumsal-hizmetler.html">Kurumsal Hizmetler</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#submenuCollapse4" aria-controls="submenuCollapse4" aria-expanded="false" aria-label="Toggle submenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</div>
+                    <div class="dropdown-menu m-0"  id="submenuCollapse4">
                         <a href="../tab-5/muhasebe-hizmetleri.html" class="dropdown-item">Muhasebe Hizmetleri</a>
                         <a href="../tab-5/insan-kaynaklari-hizmetleri.html" class="dropdown-item">İnsan Kaynakları Hizmetleri</a>
                         <a href="../tab-5/finans-hizmetleri.html" class="dropdown-item">Finans Hizmetleri</a>
@@ -95,10 +121,16 @@
                     </div>
                 </div>
 				<div class="dropdown">
-					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-6/Hakkimizda.html">Hakkımızda</a>
-					<div class="dropdown-menu m-0">
+										<div class="d-flex justify-content-between">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-target="../tab-6/Hakkimizda.html">Hakkımızda</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#submenuCollapse5" aria-controls="submenuCollapse5" aria-expanded="false" aria-label="Toggle submenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+</div>
+					<div class="dropdown-menu m-0"  id="submenuCollapse5">
 					<a href="../tab-6/marka-hikayesi.html" class="dropdown-item">Marka Hikayesi</a>
 					<a href="../tab-6/ekibimiz.html" class="dropdown-item">Ekibimiz</a>
+					<a href="../tab-6/iletisim.html" class="dropdown-item">İletişim</a>
 					</div>
 </div>
             </div>

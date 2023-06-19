@@ -1,15 +1,15 @@
 
-var dropdownLinks = document.getElementsByClassName("dropdown-toggle");
+// var dropdownLinks = document.getElementsByClassName("dropdown-toggle");
 
-for (var i = 0; i < dropdownLinks.length; i++) {
-  dropdownLinks[i].addEventListener("click", function(event) {
-    event.preventDefault(); // Bağlantıya tıklanıldığında varsayılan işlemi önle
-    var target = this.getAttribute("data-target");
-    if (target && target !== "#") {
-      window.location.href = target; // Bağlantıya yönlendir
-    }
-  });
-}
+// for (var i = 0; i < dropdownLinks.length; i++) {
+  // dropdownLinks[i].addEventListener("click", function(event) {
+    // event.preventDefault(); // Bağlantıya tıklanıldığında varsayılan işlemi önle
+    // var target = this.getAttribute("data-target");
+    // if (target && target !== "#") {
+      // window.location.href = target; // Bağlantıya yönlendir
+    // }
+  // });
+// }
 
 (function ($) {
     "use strict";
